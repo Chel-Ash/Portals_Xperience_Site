@@ -1,0 +1,156 @@
+/* ABOUT PAGE STYLING */
+.abt-bg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 325vh;
+}
+
+@media only screen and (max-width: 767px) and (max-width: 989px) {
+  .abt-bg {
+  height: 370vh;
+}
+}
+@media only screen and (min-width: 990px) and (max-width: 1120px){
+  .abt-bg {
+  height: 350vh;
+}
+}
+
+
+.abt-bg {
+  position: absolute;
+  background: radial-gradient(
+    at 100% 100%,
+    rgba(255, 123, 0, 0.226) -5%,
+    #4a636d25 40%,
+    rgba(4, 88, 121, 0.144) 80%,
+    rgba(5, 40, 54, 0.144) 100%
+  );
+}
+
+.abt-container {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #f39a48;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  top: 8%;
+}
+
+
+.abt-img {
+  border-radius: 0;
+}
+.abt-img-text {
+  margin-top: 60px;
+  color: #ff7a00;
+  font-family: "Freckle Face";
+  font-size: 50px;
+}
+.abt-text {
+  font-size: 25px;
+}
+.abt-but {
+  font-size: 20px;
+}
+
+.why-card {
+  color: white;
+  font-family: "Freckle Face";
+  font-size: 23px;
+  padding: 2px;
+}
+
+.why-header {
+  color: #f39a48;
+}
+.why-text {
+  font-size: 23px;
+}
+
+.how-card {
+  color: white;
+  font-family: "Freckle Face";
+  font-size: 23px;
+  padding: 2px;
+}
+.how-header {
+  color: #f39a48;
+}
+.product-item {
+  font-size: 25px;
+}
+.center-div {
+  background-color: rgb(247, 93, 93);
+  height: 70vh;
+  width: 140vh;
+  margin-top: 10%;
+  z-index: 2;
+}
+
+section {
+  position: absolute;
+  margin-top: 30%;
+  padding-bottom: 250px;
+  display: flex;
+  z-index: 1;
+  text-align: center;
+}
+.lg-abt-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  top: 93%;
+}
+
+.abt-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 355vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+@media only screen and (min-width: 505px) and (max-width: 540px){
+  .abt-footer {
+  top: 370vh;
+}
+}
+
+@media only screen and (min-width: 440px) and (max-width: 504px){
+  .abt-footer {
+  top: 400vh;
+}
+}
+
+@media only screen and (min-width: 408px) and (max-width: 439px){
+  .abt-footer {
+  top: 430vh;
+}
+}
+
+@media only screen and (min-width: 350px) and (max-width: 407px){
+  .abt-footer {
+  top: 450vh;
+  position: relative;
+}
+}
+@media only screen and (min-width: 200px) and (max-width: 349px){
+  .abt-footer {
+  top: 500vh;
+  z-index: 0;
+}
+}

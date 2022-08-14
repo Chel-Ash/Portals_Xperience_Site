@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Cormorant+Garamond:wght@800&family=Kanit&family=Creepster&family=Acme&family=Fredoka+One&family=Rubik+Beastly&family=Freckle+Face&family=Sedgwick+Ave&display=swap");
+
+/* html,
+body,
+#root
+.bg,
+canvas {
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+} */
+#root {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+/* canvas {
+  position: absolute;
+} */
+
+portal {
+  top: 220px;
+}
+
+/* * {
+  outline: 1px solid red !important;
+} */
+
+.bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    at 50% 100%,
+    rgba(255, 123, 0, 0.226) -20%,
+    #4a636d25 40%,
+    rgba(4, 88, 121, 0.144) 80%,
+    rgba(5, 40, 54, 0.144) 100%
+  );
+  /* z-index: 1; */
+}
+
+.layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background: linear-gradient(
+    0deg,
+    rgba(134, 16, 32, 0.308) 0%,
+    transparent 80%
+  );
+  pointer-events: none;
+}
+
+* {
+  cursor: none;
+}
+
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 60px;
+
+  /* border-radius: 16px; */
+  /* background-color: white; */
+  /* mix-blend-mode: difference; */
+  z-index: 999;
+  pointer-events: none;
+}
+@media only screen and (max-width: 750px) {
+  .cursor {
+    cursor: disabled;
+    display: none;
+  }
+}
+
+/* .hero-text {
+  position: absolute;
+  line-height: 25px;
+  text-align: center;
+  padding: 0;
+  margin-top: 18%;
+  margin-left: 7%;
+} */
+.main-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 45%;
+  font-family: "Freckle Face";
+  color: rgb(98, 208, 252);
+  text-align: center;
+  z-index: 1;
+  line-height: 25px;
+  word-spacing: 3px;
+}
+.sub-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 55%;
+  font-family: "Freckle Face";
+  text-align: center;
+  z-index: 1;
+  word-spacing: 3px;
+}
+@media only screen and (max-width: 767px) {
+  .main-text {
+    font-size: 90px;
+    line-height: 85px;
+    top: 35%;
+  }
+}
+
+.read-more-cont {
+  position: absolute;
+  top: 80%;
+  font-family: "Freckle Face";
+  z-index: 1;
+  text-align: center;
+  /* word-spacing: 2px; */
+}
+.read-more {
+  background-color: #ff7a00;
+  text-align: center;
+  font-size: 23px;
+}
+/* @media only screen and (min-width: 450px) and (max-width: 600px) {
+  .read-more {
+    position: absolute;
+  left: 25%;
+}
+
+}
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+  .read-more {
+  left: 37%;
+}
+} */
+
+.lg-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  top: 84%;
+}
+
+.follow-us {
+  pointer-events: none;
+  font-size: 25px;
+  margin-left: 1%;
+  color: #ff7a00;
+  font-family: "Freckle Face";
+}
+
+.copyright {
+  position: absolute;
+  pointer-events: none;
+  margin-left: 4%;
+  font-size: 21px;
+  padding: 10px 0 10px 0;
+  color: #ff7a00;
+  font-family: "Freckle Face";
+}
+
+.switch {
+  letter-spacing: 10px;
+  margin-left: 55%;
+}
+.switch p {
+  display: inline;
+}
+
+.items1:before {
+  font-size: 40px;
+  font-family: "Font Awesome 5 Free";
+  color: white;
+  font-weight: 900;
+  content: "\f04c";
+  transform: rotateY(30deg);
+}
+
+.items2:before {
+  font-size: 38px;
+  color: rgb(197, 194, 194);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f04b";
+}
+
+.items3:before {
+  font-size: 40px;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f028";
+}
+.items4:before {
+  font-size: 38px;
+  color: rgb(197, 194, 194);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f6a9";
+}
+
+/* nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+  width: 120vh;
+  justify-content: space-around;
+  background-color: white;
+  z-index: 4;
+} */
+
+/* li a.home,
+li a.docs,
+li a.about,
+li a.team,
+li a.film,
+li a.games {
+  font-size: 28px;
+  margin-left: 13%;
+  margin-top: 3.8%;
+} */
+/* 
+@media only screen and (max-width: 600px) {
+  .follow-us {
+    font-size: 25px;
+    left: 30px;
+  }
+} */
+
+.medium {
+  /* position: absolute; */
+  /* bottom: 45px; */
+  /* left: 80px; */
+  width: 40px;
+  cursor: none;
+}
+.discord {
+  /* position: absolute; */
+  /* bottom: 45px; */
+  /* left: 140px; */
+  width: 40px;
+  cursor: none;
+}
+.twitter {
+  /* position: absolute;
+  bottom: 45px;
+  left: 200px; */
+  width: 40px;
+  cursor: none;
+}
+a.bottom-left {
+  bottom: 50px;
+  left: 60px;
+  font-size: 25px;
+}

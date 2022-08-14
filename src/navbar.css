@@ -1,0 +1,81 @@
+.navbar-container {
+  position: absolute;
+  float: left;
+  margin-top: 1.6%;
+  font-size: 28px;
+  z-index: 3;
+}
+.brand {
+  width: 12vh;
+}
+/* .container {
+  z-index: 1;
+} */
+.navbar-container .nav-links .home,
+.navbar-container .nav-links .about,
+.navbar-container .nav-links .games,
+.navbar-container .nav-links .films,
+.navbar-container .nav-links .team,
+.navbar-container .nav-links .docs {
+  font-family: "Freckle Face";
+  color: #ff7a00;
+}
+.nav-links-mobile {
+  background: radial-gradient(
+    at 50% 120%,
+    rgba(255, 240, 240, 0.897) 100%,
+    #4a636d25 100%,
+    rgba(4, 88, 121, 0.144) 100%,
+    rgba(5, 40, 54, 0.144) 100%
+  );
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border-top: 8px solid black; */
+}
+.divider {
+  line-height: 0px;
+  margin: 0px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 2;
+  background-color: #405b9f;
+  background-color: white;
+}
+.copy-mobile {
+  color: rgba(241, 136, 1, 0.8);
+  font-family: "Freckle Face";
+  font-size: 25px;
+}
+.copy-mobile a {
+  color: rgb(98, 208, 252);
+}
+.footer-cont {
+  position: static;
+  margin-left: 0%;
+  display: block;
+  text-align: center;
+  z-index: 2;
+}
+.follow-us-mobile {
+  font-size: 27px;
+  color: rgba(241, 136, 1, 0.8);
+  line-height: -1px;
+  font-family: "Freckle Face";
+  display: block;
+}
+.divider-footer {
+  padding: 1.5px;
+  margin: 0px;
+}
+
+/* * {
+  outline: 1px solid red !important;
+} */
